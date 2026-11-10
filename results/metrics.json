@@ -1,0 +1,34 @@
+{
+  "test_start": "2012-07-01",
+  "test_end": "2012-12-31",
+  "models": {
+    "yesterday": {
+      "days": 184,
+      "mae": 840.0760869565217,
+      "rmse": 1218.9774313993141,
+      "interval_coverage": 0.907608695652174,
+      "mean_interval_width": 4208.451086956522
+    },
+    "last_week": {
+      "days": 184,
+      "mae": 1129.7880434782608,
+      "rmse": 1648.4026177537426,
+      "interval_coverage": 0.8858695652173914,
+      "mean_interval_width": 4887.891304347826
+    },
+    "ridge": {
+      "days": 184,
+      "mae": 791.5535267850562,
+      "rmse": 1141.3699956187322,
+      "interval_coverage": 0.8858695652173914,
+      "mean_interval_width": 3521.6036462816687
+    },
+    "boosting": {
+      "days": 184,
+      "mae": 908.5996106670314,
+      "rmse": 1300.0691314176727,
+      "interval_coverage": 0.8913043478260869,
+      "mean_interval_width": 3923.513899731458
+    }
+  }
+}
